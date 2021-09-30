@@ -72,7 +72,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6" class="about-img">
         <img src="./images/about.png" alt="">
         </div>
       
@@ -172,7 +172,7 @@
 <!-- Contact Me -->
 <section class="contact py-5 px-5" id="contact">
   <div class="row justify-content-center">
-    <div class="col-md-6 text-center">
+    <div class="col-md-6 text-center contact-img">
       <img src="./images/contact.png" >
     </div>
     <div class="col-md-6">
