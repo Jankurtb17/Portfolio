@@ -272,6 +272,15 @@ body {
   .hide {
     display: block;
   }
+  body {
+    overflow-x: hidden;
+  }
+  .about-img {
+    display: none;
+  }
+  .contact-img {
+    display: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
