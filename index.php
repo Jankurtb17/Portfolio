@@ -24,9 +24,8 @@
     <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto text-light ">
         <a class="nav-link" href="#about">About Me</a>
-        <a class="nav-link" href="#">Contact</a>
         <a class="nav-link" href="#skills">Skills</a>
-        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
         
       </div>
     </div>
@@ -45,7 +44,7 @@
           <p class="text-muted mb-1">Hello I'm</p>
           <h1 class= text-uppercase fs-1 fw-bold">Jan Kurt D. Bayaras</h1>
           <h2 class="fs-4">Cloud Security Engineer</h2>
-          <button class="btn-submit py-2 px-5" type="submit">GET RESUME</button>
+          <a href="./files/resume.pdf" class="btn-submit py-2 px-5" download >GET RESUME</a>
         </div>
       </div>
     </div>
