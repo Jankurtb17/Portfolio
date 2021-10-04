@@ -179,7 +179,7 @@
   <div class="row justify-content-center">
   <div class="col-lg-4 col-md-6 col-sm-12">
     <div class="card ">
-      <img src="./images/thesis.png" class="card-img-top" alt="...">
+      <img src="./images/thesis.JPG" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Angels of De Vera Learning center</h5>
         <p class="card-text">
