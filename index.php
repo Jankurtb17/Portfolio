@@ -25,8 +25,8 @@
       <div class="navbar-nav ms-auto text-light ">
         <a class="nav-link" href="#about">About Me</a>
         <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
         <a class="nav-link" href="#contact">Contact</a>
-        
       </div>
     </div>
   </div>
@@ -168,7 +168,32 @@
 </section>
 <!-- end skills -->
 
-<!-- Contact Me -->
+<!-- Projects start -->
+<section class="projects py-5 px-5" id="projects">
+  <div class="row justify-content-center">
+    <div class="text-center">
+      <h2>Projects</h2>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="card ">
+      <img src="./images/thesis.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Angels of De Vera Learning center</h5>
+        <p class="card-text">
+          <a href="http://jankurt.infinityfreeapp.com/">Live Demo</a>
+        </p>
+      </div>
+    </div>
+  </div>
+ 
+    
+  </div>
+</section>
+
+<!-- Contact Me start-->
 <section class="contact py-5 px-5" id="contact">
   <div class="row justify-content-center">
     <div class="col-md-6 text-center contact-phone-img">
