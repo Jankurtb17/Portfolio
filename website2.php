@@ -18,7 +18,7 @@
     <div class="col-lg-2">
       <div class="imageContainer1">
         <a href="#screenshot1" id="screenshot1">
-          <img src ="images/website2/Sy.jpg" class="img-fluid " height="400" width="800" />
+          <img src ="./images/website2/Sy.jpg" class="img-fluid " height="400" width="800" />
         </a>
 
       </div>
@@ -26,31 +26,31 @@
 
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot2">
-        <img src ="images/website2/subjects.JPG" class="img-fluid " height="400" width="800" />
+        <img src ="./images/website2/subjects.JPG" class="img-fluid " height="400" width="800" />
       </div>
     </div>
 
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot3">
-        <img src ="images/website2/class.jpg" class="img-fluid " height="400" width="800" />
+        <img src ="./images/website2/class.jpg" class="img-fluid " height="400" width="800" />
       </div>
     </div>
 
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot4">
-        <img src ="images/website2/addclass.jpg" class="img-fluid " height="400" width="800" />
+        <img src ="./images/website2/addclass.jpg" class="img-fluid " height="400" width="800" />
       </div>
     </div>
 
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot5">
-        <img src ="images/website2/teachers.jpg" class="img-fluid " height="400" width="800" />
+        <img src ="./images/website2/teachers.jpg" class="img-fluid " height="400" width="800" />
       </div>
     </div>
 
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot6">
-        <img src ="images/website2/add-teacher.JPG" class="img-fluid " height="400" width="800" />
+        <img src ="./images/website2/add-teacher.JPG" class="img-fluid " height="400" width="800" />
       </div>
     </div>
   </div>
@@ -58,28 +58,28 @@
   <div class="row mt-3">
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot7">
-        <img src ="images/website2/show-teacher.jpg" class="img-fluid " height="400" width="800" />
+        <img src ="./images/website2/show-teacher.jpg" class="img-fluid " height="400" width="800" />
       </div>
     </div>
 
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot8">
-        <img src ="images/website2/students.jpg" class="img-fluid " height="400" width="800" />
+        <img src ="./images/website2/students.jpg" class="img-fluid " height="400" width="800" />
       </div>
     </div>
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot9">
-        <img src ="images/website2/addstudents.jpg" class="img-fluid " height="400" width="800" />
+        <img src ="./images/website2/addstudents.jpg" class="img-fluid " height="400" width="800" />
       </div>
     </div>
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot10">
-        <img src ="images/website2/teacher-class.jpg" class="img-fluid" height="400" width="800" />
+        <img src ="./images/website2/teacher-class.jpg" class="img-fluid" height="400" width="800" />
       </div>
     </div>
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot11">
-        <img src ="images/website2/show-student.jpg" class="img-fluid" height="400" width="800" />
+        <img src ="./images/website2/show-student.jpg" class="img-fluid" height="400" width="800" />
       </div>
     </div>
   </div>
