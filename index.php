@@ -7,12 +7,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <title>Portfolio</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style2.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+
 <!-- Navbar -->
 <div class="bg-image">
 <nav class="navbar navbar-expand-lg  navbar-light">
@@ -42,7 +43,7 @@
       <div class="col-md-6 order-md-first">
         <div class="home-text">
           <p class="text-muted mb-1">Hello I'm</p>
-          <h1 class= text-uppercase fs-1 fw-bold">Jan Kurt D. Bayaras</h1>
+          <h1 class="text-uppercase fs-1 fw-bold">Jan Kurt D. Bayaras</h1>
           <h2 class="fs-4">Cloud Security Engineer</h2>
           <a href="./files/resume.pdf" class="btn-submit py-2 px-5" download >GET RESUME</a>
         </div>
@@ -74,7 +75,7 @@
         <div class="col-lg-6 about-img">
         <img src="./images/about.png" alt="">
         </div>
-      
+
     </div>
   </div>
 </section>
@@ -89,7 +90,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="row justify-content-center">
     <div class="col-md-3 col-sm-6">
       <div class="row text-center">
@@ -177,9 +178,9 @@
   </div>
 
   <div class="row justify-content-center">
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="card ">
-      <img src="./images/thesis.JPG" class="card-img-top" alt="...">
+  <div class="col-lg-4 col-md-6 col-sm-12" >
+    <div class="card" style="height:50vh;">
+      <img src="./images/thesis.JPG" class="card-img-top" alt="..."style="height:32.5vh;">
       <div class="card-body">
         <h5 class="card-title">Angels of De Vera Learning center</h5>
         <p class="card-text">
@@ -188,8 +189,22 @@
       </div>
     </div>
   </div>
- 
-    
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="card ">
+      <img src="./images/website2.JPG" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">School Management System</h5>
+        <p class="card-text">
+          <a href="http://kurtb.epizy.com">Live Demo</a>
+        </p>
+        <p class="card-text">
+          <a href="website2.php">Sample ScreenShot</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
   </div>
 </section>
 
@@ -229,4 +244,3 @@
 
 
 </html>
-
