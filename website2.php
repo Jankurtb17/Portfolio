@@ -44,7 +44,7 @@
 
     <div class="col-lg-2">
       <div class="imageContainer1" id="screenshot5">
-        <img src ="./images/website2/teachers.JPG" class="img-fluid " height="400" width="800" />
+        <img src ="./images/website2/Teachers.JPG" class="img-fluid " height="400" width="800" />
       </div>
     </div>
 
