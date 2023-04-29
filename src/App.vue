@@ -1,11 +1,11 @@
 <script setup>
 import AOS from "aos";
-import AppHeader from "./components/AppHeader.vue";
-import AboutMe from "./components/AboutMe.vue";
-import MyProjects from "./components/MyProjects.vue";
-import ProfSkills from "./components/ProfSkills.vue";
+import AppHeader from "./views/AppHeader.vue";
+import AboutMe from "./views/AboutMe.vue";
+import MyProjects from "./views/MyProjects.vue";
+import ProfSkills from "./views/ProfSkills.vue";
 import { ref, onMounted } from "vue";
-import EducationHistory from "./components/EducationHistory.vue";
+import EducationHistory from "./views/EducationHistory.vue";
 
 onMounted(() => {
   AOS.init();

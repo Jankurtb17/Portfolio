@@ -13,7 +13,7 @@
       <span class="font-bold text-white">I'M A </span> <span class="kalam text-white">WEB DEVELOPER</span>  <br />
     </div>
   </div>
-  <div class="image-profile grid md:justify-items-center sm:justify-items-center">
+  <div class="image-profile grid md:justify-items-center sm:justify-items-center duration-400">
     <img class="sm:w-80 sm:h-80" src="../assets/img/0125.png"/>
   </div>
   <div class="description sm:px-3 sm:py-4">
