@@ -4,7 +4,7 @@
   >
     RESUME
   </h1>
-  <div class="grid grid-cols-2 sm:grid-cols-1 mb-10">
+  <div class="grid grid-cols-2 sm:grid-cols-1">
     <div class="p-10">
       <h1
         class="sm:text-center inner-font text-white uppercase text-xl font-bold border-b mb-5 py-5 teal"
@@ -109,7 +109,7 @@
           </template>
           <template #body>
             <div class="mb-5">
-              <span class="text-white font-semibold text-xl teal"
+              <span class="text-white font-semibold text-xl teal kalam"
                 >{{ experience.position }}
               </span>
               <br />
@@ -198,4 +198,9 @@ const experiences = ref([
 .inner-font {
   font-family: "Inter", sans-serif;
 }
+.kalam {
+  font-family: 'Kalam', cursive;
+}
+
+
 </style>

@@ -6,6 +6,8 @@ import MyProjects from "./views/MyProjects.vue";
 import ProfSkills from "./views/ProfSkills.vue";
 import { ref, onMounted } from "vue";
 import EducationHistory from "./views/EducationHistory.vue";
+import ContactMe from "./views/ContactMe.vue";
+import AppFooter from "./views/AppFooter.vue"
 
 onMounted(() => {
   AOS.init();
@@ -20,6 +22,8 @@ onMounted(() => {
   <ProfSkills />
   <MyProjects />
   <EducationHistory />
+  <ContactMe />
+  <AppFooter />
 </template>
 
 <style scoped>

@@ -1,15 +1,15 @@
 <template>
-  <div data-aos="fade-up"  class="mt-10 sm:text-center">
+  <div data-aos="fade-up"  class="mt-10 sm:text-center md:text-center">
     <span class="inner-font text-white uppercase text-3xl font-bold">
       PORTFOLIO
     </span>
-    <h1 data-aos="fade-up" data-aos-duration="1000" class="inner-font text-white uppercase text-2.5xl font-bold teal">
+    <h1 data-aos="fade-up" data-aos-duration="1000" class="inner-font text-white uppercase text-3xl font-bold teal">
       MY PROJECTS
     </h1>
     <br />
   </div>
 
-  <div class="grid sm:grid-cols-1 p-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 sm:gap-10">
+  <div class="grid sm:grid-cols-1 p-10 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 sm:gap-10 ">
     <!-- Task Application -->
     <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800" class="max-w-sm bg-white border border-gray-200 rounded-lg py-10">
       <div class="border-b-2 mb-5">

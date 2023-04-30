@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10 sm:text-center">
+  <div class="mt-10 sm:text-center md:text-center">
     <span class="inner-font text-white uppercase text-3xl font-bold">
       PROFESSIONAL
     </span>
