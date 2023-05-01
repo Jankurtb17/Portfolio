@@ -9,13 +9,13 @@
     <br />
   </div>
 
-  <div class="grid sm:grid-cols-1 p-10 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 sm:gap-10 ">
+  <div class="grid sm:grid-cols-1 p-10 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 sm:gap-10 md:gap-10">
     <!-- Task Application -->
-    <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800" class="max-w-sm bg-white border border-gray-200 rounded-lg py-10">
-      <div class="border-b-2 mb-5">
-        <img class="mx-auto" src="../assets/svg/task-app.svg" alt="" />
+    <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800" class="card bg-white rounded-lg md:col-span-1 md:p-8 sm:p-5">
+      <div class="mb-5">
+        <img class="card-img rounded-md" src="../assets/img/task-app.png" alt="" style="width: 100%"/>
       </div>
-      <div class="px-5">
+      <div class="">
         <h5 class="mb-2 text-2xl font-bold tracking-tight teal">
           Task Application
         </h5>
@@ -27,7 +27,7 @@
         </p>
         <a
           href="https://todo-frontend-dun-one.vercel.app/"
-          class="text-xl inline-flex items-center py-2 text-sm font-medium "
+          class="text-xl inline-flex items-center py-2 text-sm font-medium text-white"
         >
           See Project
           <svg
@@ -47,7 +47,7 @@
       </div>
     </div>
     <!-- Weather Application -->
-    <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800" class="max-w-sm bg-white border border-gray-200 rounded-lg py-10">
+    <!-- <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800" class="card bg-white border border-gray-200 rounded-lg py-10">
       <div class="border-b-2 mb-5">
         <img class="mx-auto" src="../assets/svg/task-app.svg" alt="" />
       </div>
@@ -81,13 +81,13 @@
           </svg>
         </a>
       </div>
-    </div>
+    </div> -->
     <!-- Batanes Travel Website -->
-     <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800" class="max-w-sm bg-white border border-gray-200 rounded-lg py-10">
-      <div class="border-b-2 mb-5">
-        <img class="mx-auto" src="../assets/svg/task-app.svg" alt="" />
+     <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800" class="card bg-white rounded-lg md:col-span-1 md:p-8 sm:p-5">
+      <div class="mb-5">
+        <img  class="card-img rounded-md" src="../assets/img/task-app.png" alt="" style="width: 100%"/>
       </div>
-      <div class="px-5">
+      <div>
         <h5 class="mb-2 text-2xl font-bold tracking-tight teal">
           Batanes Travel Website
         </h5>
@@ -99,7 +99,7 @@
         </p>
         <a
           href="https://todo-frontend-dun-one.vercel.app/"
-          class="text-xl inline-flex items-center py-2 text-sm font-medium "
+          class="text-xl inline-flex items-center py-2 text-sm font-medium text-white"
         >
           See Project
           <svg
@@ -132,5 +132,14 @@
 
 .inner-font {
   font-family: "Inter", sans-serif;
+}
+
+.card {
+  background-color: #292E36;
+}
+
+.card-img {
+  width: 100%;
+  /* height: 240px; */
 }
 </style>

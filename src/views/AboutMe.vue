@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:text-center md:text-center mt-10">
+  <div class="sm:text-center md:text-center mt-20">
     <div class="mb-5">
       <span class="main-txt text-white">HELLO,</span>
       <span class="main-txt teal"> MY NAME IS </span><br />
@@ -54,6 +54,10 @@
   text-shadow: 2px 2px 0 black, -1px -1px 0 black, 1px -1px 0 black,
     -1px 1px 0 black;
   color: #fff;
+}
+
+.image-profile {
+  transition: width 1s ease-in-out;
 }
 
 .kalam {

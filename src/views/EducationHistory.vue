@@ -1,6 +1,6 @@
 <template>
   <h1
-    class="sm:text-center inner-font text-white uppercase text-3xl font-bold mb-5"
+    class="sm:text-center md:text-center inner-font text-white uppercase text-3xl font-bold mb-5"
   >
     RESUME
   </h1>
