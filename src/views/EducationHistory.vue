@@ -1,13 +1,13 @@
 <template>
   <h1
-    class="sm:text-center md:text-center inner-font text-white uppercase text-3xl font-bold mb-5"
+    class="text-center inner-font text-white uppercase text-3xl lg:text-6xl font-bold mb-5 lg:mt-20"
   >
     RESUME
   </h1>
-  <div class="grid grid-cols-2 sm:grid-cols-1">
+  <div class="grid grid-cols-2 sm:grid-cols-1 lg:px-20">
     <div class="p-10">
       <h1
-        class="sm:text-center inner-font text-white uppercase text-xl font-bold border-b mb-5 py-5 teal"
+        class="sm:text-center inner-font text-white uppercase text-xl text font-bold border-b mb-5 py-5 teal"
       >
         Education
       </h1>

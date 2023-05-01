@@ -1,9 +1,9 @@
 <template>
   <div class="p-10">
-    <h1 class="sm:text-center md:text-center inner-font text-white uppercase text-3xl font-bold mb-10">CONTACT ME</h1>
+    <h1 class="text-center inner-font text-white uppercase text-3xl lg:text-6xl font-bold mb-10">CONTACT ME</h1>
 
-    <div class="grid sm:grid-cols-3 md:grid-cols-2 sm:gap-20 md:pl-10">
-      <div class="icons grid grid-cols-1 sm:gap-10 md:gap-10">
+    <div class="grid sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-2 gap-20 pl-10 lg:px-20">
+      <div class="icons grid grid-cols-1 gap-10 gap-10">
         <div class=" rounded-full w-24 border" data-aos="fade-up" >
           <img class="p-4 h-24" src="../assets/svg/location.svg" />
         </div>

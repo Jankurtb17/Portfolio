@@ -1,7 +1,7 @@
 <template>
-  <nav class="header md:relative">
+  <nav class="header relative">
     <div
-      class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4 md:fixed md:top-0 md:left-0 md:right-0 md:px-10 lg:px-0"
+      class="flex flex-wrap justify-between p-4 w-full fixed md:top-0 md:left-0 md:right-0 md:px-10 lg:px-20"
       :class="{ 'navbar-scroll': isScrolled }"
     >
       <a class="flex items-center">

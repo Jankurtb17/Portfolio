@@ -1,40 +1,44 @@
 <template>
-  <div class="mt-10 sm:text-center md:text-center">
-    <span class="inner-font text-white uppercase text-3xl font-bold">
+  <div class="mt-20 text-center">
+    <span class="inner-font text-white uppercase text-3xl lg:text-6xl font-bold">
       PROFESSIONAL
     </span>
+    <span class="inner-font text-white uppercase text-3xl  lg:text-6xl  font-bold sm:hidden md:hidden"
+      >SKILLS
+    </span>
     <br />
-    <span class="inner-font text-white uppercase text-3xl font-bold"
+    <span class="inner-font text-white uppercase text-3xl font-bold lg:hidden"
       >SKILLS
     </span>
   </div>
 
-  <div 
-    data-aos="fade-up"
-    data-aos-anchor-placement="top-bottom"
-    data-aos-duration="800"
-    class="skills p-10" v-for="skill in skills" :key="skill.language">
-    <div>
-      <div class="flex justify-between mb-4">
-        <span class="semi-white text-3xl font-bold">{{ skill.language }}</span>
-        <div>
-          <span class="semi-white text-3xl font-bold">{{ skill.percent }}</span>
-          <span class="teal text-3xl font-bold">%</span>
+  <div class="lg:grid lg:grid-cols-3">
+    <div 
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      class="skills p-10 lg:p-20 lg:grid" v-for="skill in skills" :key="skill.language">
+      <div>
+        <div class="flex justify-between mb-4">
+          <span class="semi-white text-3xl font-bold">{{ skill.language }}</span>
+          <div>
+            <span class="semi-white text-3xl font-bold">{{ skill.percent }}</span>
+            <span class="teal text-3xl font-bold">%</span>
+          </div>
+        </div>
+        <div class="inner-font semi-white text-justify mb-5">
+          {{ skill.text }}
         </div>
       </div>
-      <div class="inner-font semi-white text-justify mb-5">
-        {{ skill.text }}
+      <div>
+        <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+          <div
+            class="bg-teal-500 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+            :style="{width: skill.percent+'%'}"
+          ></div>
+        </div>
       </div>
+   
     </div>
-    <div>
-      <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-        <div
-          class="bg-teal-500 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
-          :style="{width: skill.percent+'%'}"
-        ></div>
-      </div>
-    </div>
- 
   </div>
 </template>
 
