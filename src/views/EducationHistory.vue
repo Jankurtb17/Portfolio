@@ -1,9 +1,11 @@
 <template>
-  <h1
-    class="text-center inner-font text-white uppercase text-3xl lg:text-6xl font-bold mb-5 lg:mt-20"
-  >
-    RESUME
-  </h1>
+  <div data-aos="fade-up" data-aos-duration="1000">
+    <h1
+      class="text-center inner-font text-white uppercase text-3xl lg:text-6xl font-bold mb-5 lg:mt-20"
+    >
+      RESUME
+    </h1>
+  </div>
   <div class="grid grid-cols-2 sm:grid-cols-1 lg:px-20">
     <div class="p-10">
       <h1
@@ -145,14 +147,14 @@ const education = ref([
     id: 2,
     title: "High School",
     school: "Batanes National Science High School",
-    location: "Basco, Batanes",
+    location: " - Basco, Batanes",
     time: "2010 - 2014",
   },
   {
     id: 3,
     title: "Elementary",
     school: "Diptan Elementary School",
-    location: "Basco, Batanes",
+    location: " - Basco, Batanes",
     time: "2003 - 2010",
   },
 ]);

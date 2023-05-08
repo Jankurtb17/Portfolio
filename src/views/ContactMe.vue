@@ -1,7 +1,8 @@
 <template>
   <div class="p-10">
-    <h1 class="text-center inner-font text-white uppercase text-3xl lg:text-6xl font-bold mb-10">CONTACT ME</h1>
-
+    <div data-aos="fade-right" data-aos-duration="950">
+      <h1 class="text-center inner-font text-white uppercase text-3xl lg:text-6xl font-bold mb-10">CONTACT ME</h1>
+    </div>
     <div class="grid sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-2 gap-20 pl-10 lg:px-20">
       <div class="icons grid grid-cols-1 gap-10 gap-10">
         <div class=" rounded-full w-24 border" data-aos="fade-up" >
