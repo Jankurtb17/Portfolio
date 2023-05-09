@@ -1,7 +1,7 @@
 <template>
-  <div class="lg:grid lg:grid-cols-2 lg:pr-20 lg:pl-20">
+  <div class="cover lg:grid lg:grid-cols-2 lg:pr-20 lg:pl-20">
     <div
-      class="about sm:text-center md:text-center sm:pt-20 lg:mt-40 md:mt-20 lg:px-20"
+      class="about sm:text-center md:text-center sm:pt-20 lg:mt-40 md:mt-20 lg:px-20 lg:pl-28"
     >
       <div class="mb-5">
         <span class="main-txt text-white">HELLO,</span>
@@ -14,7 +14,7 @@
       </div>
       <div class="mb-5">
         <span class="font-bold text-white text-2xl">I'M A </span>
-        <span class="kalam text-white text-2xl">WEB DEVELOPER</span> <br />
+        <span class="kalam text-white text-3xl">WEB DEVELOPER</span> <br />
       </div>
 
       <div class="icons-msg sm:hidden md:hidden lg:block">
@@ -57,7 +57,7 @@
       class="image-profile grid md:justify-items-center sm:justify-items-center lg:justify-items-center duration-400 lg:mt-10"
     >
       <img
-        class="sm:w-80 sm:h-80 md:w-96 md:h-96 lg:h-96 lg:mt-20"
+        class="sm:w-80 sm:h-80 md:w-96 md:h-96 lg:h-96 lg:mt-28"
         src="../assets/img/0125.png"
       />
     </div>
@@ -98,6 +98,11 @@
   font-weight: 800;
 }
 
+.cover {
+  background: url("../assets/svg/dot-2.svg") no-repeat right bottom;
+}
+
+
 .teal {
   color: #29a587;
 }
@@ -132,5 +137,17 @@
 .csv-btn {
   border: 1px solid #808387;
   color: #808387;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .about {
+    border-left: none;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 820px) {
+  .about {
+    border-left: none;
+  }
 }
 </style>

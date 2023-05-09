@@ -10,7 +10,7 @@
           >JKWORKS</span
         >
       </a>
-      <button
+      <!-- <button
         @click="openMenu"
         id="mega-menu-full-image-button"
         data-collapse-toggle="mega-menu-full-image"
@@ -33,7 +33,12 @@
             clip-rule="evenodd"
           ></path>
         </svg>
-      </button>
+      </button> -->
+      <div class="cross" @click="openMenu">
+        <div class="cross-line" ref="line1"></div>
+        <div class="cross-line" ref="line2"></div>
+        <!-- <div class="cross-line" ref="line3"></div> -->
+      </div>
       </div>
     </nav>
 
@@ -100,8 +105,19 @@ const handleScroll = () => {
   isScrolled.value = window.pageYOffset > 0;
 };
 
+const line1 = ref()
+const line2 = ref()
+const line3 = ref()
+
 const openMenu = () => {
   isToggle.value = !isToggle.value
+  if(isToggle.value === true) {
+    line1.value.style.transform = 'rotate(45deg)'
+    line2.value.style.transform = 'rotate(-45deg)'
+  } else {
+    line1.value.style.transform = 'rotate(0deg)'
+    line2.value.style.transform = 'rotate(0deg)'
+  }
 }
 
 // onMounted(() => {
@@ -123,4 +139,31 @@ nav {
 .drawer {
   background-color: #31363C;
 }
+
+.cross {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.cross-line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cross-line:nth-child(1) {
+  top: 30%;
+  transform-origin: 0% 40%;
+}
+
+.cross-line:nth-child(2) {
+  top: 100%;
+  transform-origin: 0% 40%;
+}
+
+
 </style>

@@ -1,9 +1,9 @@
 <template>
-  <div data-aos="fade-right"  class="mt-10 lg:mt-20 text-center">
+  <div data-aos="fade-right" data-aos-duration="500"  class="mt-10 lg:mt-20 text-center">
     <span class="inner-font text-white uppercase text-3xl lg:text-6xl font-bold">
       PORTFOLIO
     </span>
-    <h1 data-aos="fade-left" data-aos-duration="1000" class="inner-font text-white uppercase text-3xl lg:text-4xl font-bold teal">
+    <h1 data-aos="fade-left" data-aos-duration="100" class="inner-font text-white uppercase text-3xl lg:text-4xl font-bold teal">
       MY PROJECTS
     </h1>
     <br />
@@ -11,7 +11,7 @@
 
   <div class="grid sm:grid-cols-1 lg:p-20 sm:p-10 md:p-10 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-10">
     <!-- Task Application -->
-    <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800" class="card bg-white rounded-lg md:col-span-1 md:p-8 p-5">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1020" class="card bg-white rounded-lg md:col-span-1 md:p-8 p-5">
       <div class="mb-5">
         <img class="card-img rounded-md" src="../assets/img/task-app.png" alt="" style="width: 100%"/>
       </div>
