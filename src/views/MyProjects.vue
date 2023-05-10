@@ -3,7 +3,7 @@
     <span class="inner-font text-white uppercase text-3xl lg:text-6xl font-bold">
       PORTFOLIO
     </span>
-    <h1 data-aos="fade-left" data-aos-duration="100" class="inner-font text-white uppercase text-3xl lg:text-4xl font-bold teal">
+    <h1 data-aos="fade-up" data-aos-duration="100" class="inner-font text-white uppercase text-3xl lg:text-4xl font-bold teal">
       MY PROJECTS
     </h1>
     <br />

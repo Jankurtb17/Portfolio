@@ -1,7 +1,7 @@
 <template>
-  <div class="cover lg:grid lg:grid-cols-2 lg:pr-20 lg:pl-20">
+  <div class="cover lg:grid lg:grid-cols-2 lg:pr-20 lg:pl-20 lg:mb-32">
     <div
-      class="about sm:text-center md:text-center sm:pt-20 lg:mt-40 md:mt-20 lg:px-20 lg:pl-28"
+      class="about sm:text-center md:text-center sm:pt-20 lg:mt-44 md:mt-20 lg:px-20 lg:pl-28"
     >
       <div class="mb-5">
         <span class="main-txt text-white">HELLO,</span>
@@ -57,8 +57,8 @@
       class="image-profile grid md:justify-items-center sm:justify-items-center lg:justify-items-center duration-400 lg:mt-10"
     >
       <img
-        class="sm:w-80 sm:h-80 md:w-96 md:h-96 lg:h-96 lg:mt-28"
-        src="../assets/img/0125.png"
+        class="sm:w-80 sm:h-80 md:w-96 md:h-96 lg:mt-20"
+        src="../assets/svg/me.png"
       />
     </div>
     <div class="icons-msg lg:hidden">
@@ -97,11 +97,6 @@
   font-family: "Inter", sans-serif;
   font-weight: 800;
 }
-
-.cover {
-  background: url("../assets/svg/dot-2.svg") no-repeat right bottom;
-}
-
 
 .teal {
   color: #29a587;

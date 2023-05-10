@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 text-center">
+  <div class="mt-20 lg:mt-40 text-center">
     <span class="inner-font text-white uppercase text-3xl lg:text-6xl font-bold">
       PROFESSIONAL
     </span>
@@ -47,37 +47,37 @@ import { ref } from "vue";
 
 const skills = ref([
   {
-    language: "HTML",
+    language: "Html",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
     percent: 90,
   },
   {
-    language: "CSS",
+    language: "Css",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
     percent: 70,
   },
   {
-    language: "JAVASCRIPT",
+    language: "Javascript",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
     percent: 70,
   },
   {
-    language: "VUE JS",
+    language: "Vue js",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
     percent: 60,
   },
   {
-    language: "LARAVEL",
+    language: "Laravel",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
     percent: 30,
   },
   {
-    language: "TAILWIND",
+    language: "Tailwind css",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
     percent: 50,
   },
   {
-    language: "ELEMENT PLUS",
+    language: "Element plus",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
     percent: "60",
   },

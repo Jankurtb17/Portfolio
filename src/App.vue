@@ -38,4 +38,8 @@ onMounted(() => {
   font-family: "Kalam", cursive;
   src: url("../src/assets/fonts/Kalam/Kalam-Regular.ttf") format("woff");
 }
+
+body {
+  overflow-x: hidden;
+}
 </style>
