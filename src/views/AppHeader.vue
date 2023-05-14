@@ -22,7 +22,7 @@
   <transition name="slide">
     <div
       v-if="isToggle"
-      class="drawer fixed top-0 right-0 lg:z-40 xl:z-40 h-screen p-4 w-96"
+      class="drawer fixed top-0 right-0 lg:z-40 xl:z-40 h-screen p-4 w-96 z-10"
       tabindex="-1"
       aria-labelledby="drawer-right-label"
     >
@@ -43,7 +43,7 @@
           class="py-2"
         >
           <a
-            class="relative duration-900 lg:top-32 md:top-44 left-14 text-2xl uppercase font-bold text-white drawer-link"
+            class="relative duration-900 lg:top-32 md:top-44 sm:top-44 left-14 text-2xl uppercase font-bold text-white drawer-link"
             :href="menu.id"
           >
             {{ menu.name }}

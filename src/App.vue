@@ -28,6 +28,8 @@ onMounted(() => {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 @font-face {
   font-family: "Inter", sans-serif;
   src: url("../src/assets/fonts/Inter/static/Inter-Regular.ttf")
