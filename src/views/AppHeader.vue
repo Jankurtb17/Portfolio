@@ -6,7 +6,7 @@
     >
       <a class="flex items-center">
         <span
-          class="z-10 self-center text-2xl font-bold whitespace-nowrap dark:text-white"
+          class="text-white z-10 self-center text-2xl font-bold whitespace-nowrap dark:text-white "
           >JKWORKS</span
         >
       </a>
