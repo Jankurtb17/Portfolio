@@ -33,14 +33,17 @@
           <img
             class="h-8 md:h-12 cursor-pointer"
             src="../assets/svg/linkedin.svg"
+            @click="linkedin"
           />
           <img
             class="h-8 md:h-12 cursor-pointer"
             src="../assets/svg/facebook.svg"
+            @click="facebook"
           />
           <img
             class="h-8 md:h-12 cursor-pointer"
             src="../assets/svg/insta.svg"
+            @click="instagram"
           />
         </div>
         <div class="btn-csv flex sm:justify-center md:justify-center">
@@ -87,6 +90,23 @@
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+import { useRouter } from 'vue-router';
+const router = useRouter();
+
+const linkedin = () => {
+  window.location.href = "https://www.linkedin.com/in/jan-kurt-bayaras-25a10b16a/"
+}
+
+const facebook = () => {
+  window.location.href = "https://www.facebook.com/JankurtB/"
+}
+
+const instagram = () => {
+  window.location.href = "https://www.instagram.com/jan_kurt/"
+}
+</script>
 
 <style scoped>
 .about {
