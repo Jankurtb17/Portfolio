@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 lg:mt-40 text-center">
+  <div class="mt-20 lg:mt-40 text-center" id="Skills">
     <span class="inner-font text-white uppercase text-3xl lg:text-6xl font-bold">
       PROFESSIONAL
     </span>
@@ -59,27 +59,32 @@ const skills = ref([
   {
     language: "Javascript",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
-    percent: 70,
+    percent: 80,
   },
   {
     language: "Vue js",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
-    percent: 60,
+    percent: 80,
   },
   {
     language: "Laravel",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
-    percent: 30,
+    percent: 20,
+  },
+  {
+    language: "Python",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
+    percent: 40,
   },
   {
     language: "Tailwind css",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
-    percent: 50,
+    percent: 70,
   },
   {
     language: "Element plus",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeatdolore, beatae ipsam suscipit corrupti deserunt officia vitae eligendicumque error architecto quidem velit aliquam hic facilis eum nisi enim",
-    percent: "60",
+    percent: "30",
   },
 ]);
 </script>

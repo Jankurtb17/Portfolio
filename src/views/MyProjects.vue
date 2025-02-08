@@ -1,5 +1,5 @@
 <template>
-  <div data-aos="fade-right" data-aos-duration="500"  class="mt-10 lg:mt-20 text-center">
+  <div data-aos="fade-right" data-aos-duration="500"  class="mt-10 lg:mt-20 text-center" id="Portfolio">
     <span class="inner-font text-white uppercase text-3xl lg:text-6xl font-bold">
       PORTFOLIO
     </span>

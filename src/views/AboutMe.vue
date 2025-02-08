@@ -22,7 +22,7 @@
           <p
             class="text-center lg:text-left text-white leading-loose md:text-1xl"
           >
-            from Batanes, Philippines. I have a 2-year experience in web
+            from Batanes, Philippines. I have a 3-year experience in web
             development. I love to <br />
             talk with you about your unique.
           </p>
@@ -79,14 +79,7 @@
         <img class="h-8 md:h-12" src="../assets/svg/facebook.svg" />
         <img class="h-8 md:h-12" src="../assets/svg/insta.svg" />
       </div>
-      <div class="btn-csv flex sm:justify-center md:justify-center">
-        <button
-          type="button"
-          class="csv-btn py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-        >
-          Download CSV
-        </button>
-      </div>
+      
     </div>
   </div>
 </template>
